@@ -12,4 +12,4 @@ void DisplayBoard(char arr[ROW][COL], int row, int col);//打印棋盘
 void player_move(char arr[ROW][COL], int row, int col);//玩家移动
 void computer_move(char arr[ROW][COL],int row,int  col);//电脑移动
 char judge(char arr[ROW][COL], int row, int  col);//判断胜负
-int is_full(char arr[ROW][COL], int row, int  col);
+int is_full(char arr[ROW][COL], int row, int  col);//判断棋盘是否已满来判断是否为平局

@@ -39,24 +39,7 @@
 	  a = b;
 	  b = temp;
   }
-  int bin_search(int arr[], int left, int right,int key)
-  {
-	  int mid = 0;
-	  while (left <= right)
-	  {
-		  mid = left + (right - left) / 2;
-		  if (arr[mid] == key) return mid;
-		  else if (key > arr[mid])
-		  {
-			  left = mid + 1;
-		  }
-		  else {
-			  right = mid - 1;
-		  }
-	  }
-	  if (left > right)
-		  return -1;
-  }
+
   //计算str的长度
   int str_len(char* p)
   {

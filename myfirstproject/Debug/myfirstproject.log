@@ -1,0 +1,4 @@
+﻿  源.cpp
+E:\Project\c_code\primary\myfirstproject\源.cpp(13,6): warning C4101: “num1”: 未引用的局部变量
+E:\Project\c_code\primary\myfirstproject\源.cpp(13,12): warning C4101: “num2”: 未引用的局部变量
+  myfirstproject.vcxproj -> E:\Project\c_code\primary\myfirstproject\Debug\myfirstproject.exe
